@@ -31,6 +31,7 @@ gem 'font-awesome-rails', '~> 4.3'
 gem 'simple_form', '~>3.1.0'
 gem 'devise', '~>3.4.0'
 gem 'auto_html'
+gem 'dotenv-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
