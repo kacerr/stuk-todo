@@ -35,6 +35,6 @@ production:
   encoding: utf8
   database: stukdo_production
   pool: 5
-  username: root
-  password: sql@demon
+  username: <%= ENV["DB_USER"] %>
+  password: <%= ENV["DB_PASS"] %>
   host: localhost
